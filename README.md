@@ -1,5 +1,6 @@
-#安装 
-npm install vue-iosScroller
+#安装
+
+    npm install vue-iosScroller
 
 #main.js 安装全局指令 v-scroll
 
