@@ -102,7 +102,6 @@ class vueIosScroller {
         const curPoint = this._getPoint(e); // 当前点
         const moveX = curPoint.x - this._startPoint.x;
         const moveY = curPoint.y - this._startPoint.y; // 和起点比,移动的距离,大于0向下拉,小于0向上拉
-        const scrollTop = this._getScrollTop(this.el); // 当前滚动条的距离
         if (Math.abs(moveX) > Math.abs(moveY)) {
             //触顶，然后下滑 被阻止  或者  左右滑动 被阻止
             this._preventDefault(e);
